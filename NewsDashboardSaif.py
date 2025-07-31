@@ -15,7 +15,7 @@ import io
 
 # Page configuration
 st.set_page_config(
-    page_title="Universal News Aggregation Dashboard",
+    page_title="News Aggregation Tool",
     page_icon="📰",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -409,7 +409,7 @@ class NewsAggregationDashboard:
         return processed_articles
 
 def main():
-    st.markdown('<h1 class="main-header">📰 Universal News Aggregation Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">📰 News Aggregation Tool</h1>', unsafe_allow_html=True)
     
     dashboard = NewsAggregationDashboard()
     
