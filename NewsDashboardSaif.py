@@ -38,7 +38,7 @@ st.markdown("""
         border-left: 4px solid #1f4e79;
     }
     .news-card {
-        background-color: #FFFFFF;
+        background-color: #000000;
         padding: 1rem;
         border-radius: 0.5rem;
         border: 1px solid #e0e0e0;
