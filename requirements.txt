@@ -5,3 +5,6 @@ requests
 numpy
 textblob
 validators
+altair
+feedparser
+praw
